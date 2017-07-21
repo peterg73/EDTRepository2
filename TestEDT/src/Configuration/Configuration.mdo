@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfb0dd5b-0958-4d64-8746-ab3270e47437">
+  <name>TestEDT</name>
+  <synonym>
+    <key>en</key>
+    <value>Test EDT</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a33f60b0-ba00-4aea-a64a-a0ff6fd57ce6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2be768ec-58b6-4fb6-a041-d258507fd875"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="fa12f421-2cf2-4bce-95c4-6aee668ba3b6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9014d3ef-9b28-4f8b-89af-344f882b8074"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="31bd5802-007a-4758-8915-2a6a3f20d11f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="cad97130-66b6-4142-be18-cc5e6992e62c"/>
+  <namePrefix></namePrefix>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="2a27c77e-9588-4d43-b031-490e1304c630">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>en</languageCode>
+  </languages>
+  <catalogs>Catalog.Goods</catalogs>
+</mdclass:Configuration>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a94d59b-7ae6-4f98-8fcc-1da3e57d56fd">
+  <producedTypes>
+    <objectType typeId="be6a4bdc-e450-4d78-b94d-6b51df1f1b1c" valueTypeId="57cc5ff6-4a0b-4940-856d-8d6ae42ffaa0"/>
+    <refType typeId="470de022-d70b-44ac-936a-2b93ce386cae" valueTypeId="58e76840-b8fc-4d89-ba02-b24ec92fed5c"/>
+    <selectionType typeId="2fab3420-aee9-4d22-b34f-b388ac185b20" valueTypeId="65ae8ff0-abf8-4757-a4c6-46e80d3b1930"/>
+    <listType typeId="8c046659-5225-4e4d-916b-e456084e9153" valueTypeId="fe83a195-2ab2-4050-9d6b-cf27bdc8af8e"/>
+    <managerType typeId="d6402f0a-fe21-4f40-a964-8a41d48dbbb9" valueTypeId="6cdf7546-38d7-433e-82ab-af575678f9c7"/>
+  </producedTypes>
+  <name>Goods</name>
+  <synonym>
+    <key>en</key>
+    <value>Goods</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Goods.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Goods.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Goods.Form.ListForm</defaultListForm>
+  <attributes uuid="bd7f4036-a3d9-4eeb-9e33-aca87ffa6ed7">
+    <name>VendorCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Vendor code</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="225a05bc-bdf6-4aa9-8ed1-ee8ceb8aae81">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
